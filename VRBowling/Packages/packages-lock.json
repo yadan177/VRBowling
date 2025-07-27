@@ -84,7 +84,7 @@
       "url": "https://packages.unity.cn"
     },
     "com.unity.pico.livepreview": {
-      "version": "file:/Users/zhouyun/Documents/unity工程文件/XR资源/P4/Unity Live Preview Plugin-1.0.5-20250211",
+      "version": "file:/Users/zhouyun/Documents/UnityProject/XRPlugin/P4/Unity Live Preview Plugin-1.0.5-20250211",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -208,7 +208,7 @@
       "url": "https://packages.unity.cn"
     },
     "com.unity.xr.picoxr": {
-      "version": "file:/Users/zhouyun/Documents/unity工程文件/XR资源/P4/PICO Unity Integration SDK-3.2.0-20250707",
+      "version": "file:/Users/zhouyun/Documents/UnityProject/XRPlugin/P4/PICO Unity Integration SDK-3.2.0-20250707",
       "depth": 0,
       "source": "local",
       "dependencies": {

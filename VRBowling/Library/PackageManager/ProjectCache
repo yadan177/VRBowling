@@ -5,46 +5,46 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638891841110000000
-    m_Hash: 388172247
+      ticks: 638891871140000000
+    m_Hash: 1174986836
   m_LockFileStatus:
     m_FilePath: /Users/zhouyun/Documents/GitHub/VRBowling/VRBowling/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638891841110000000
-    m_Hash: 3325957087
+      ticks: 638891871140000000
+    m_Hash: 3363554049
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus:
-  - m_FilePath: "/Users/zhouyun/Documents/unity\u5DE5\u7A0B\u6587\u4EF6/XR\u8D44\u6E90/P4/Unity
-      Live Preview Plugin-1.0.5-20250211/package.json"
+  - m_FilePath: /Users/zhouyun/Documents/UnityProject/XRPlugin/P4/Unity Live Preview
+      Plugin-1.0.5-20250211/package.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 638748375940000000
     m_Hash: 493267589
-  - m_FilePath: "/Users/zhouyun/Documents/unity\u5DE5\u7A0B\u6587\u4EF6/XR\u8D44\u6E90/P4/Unity
-      Live Preview Plugin-1.0.5-20250211"
+  - m_FilePath: /Users/zhouyun/Documents/UnityProject/XRPlugin/P4/Unity Live Preview
+      Plugin-1.0.5-20250211
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: "/Users/zhouyun/Documents/unity\u5DE5\u7A0B\u6587\u4EF6/XR\u8D44\u6E90/P4/PICO
-      Unity Integration SDK-3.2.0-20250707/package.json"
+  - m_FilePath: /Users/zhouyun/Documents/UnityProject/XRPlugin/P4/PICO Unity Integration
+      SDK-3.2.0-20250707/package.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 638832348820000000
     m_Hash: 2982845876
-  - m_FilePath: "/Users/zhouyun/Documents/unity\u5DE5\u7A0B\u6587\u4EF6/XR\u8D44\u6E90/P4/PICO
-      Unity Integration SDK-3.2.0-20250707"
+  - m_FilePath: /Users/zhouyun/Documents/UnityProject/XRPlugin/P4/PICO Unity Integration
+      SDK-3.2.0-20250707
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -302,14 +302,14 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: "com.unity.pico.livepreview@file:/Users/zhouyun/Documents/unity\u5DE5\u7A0B\u6587\u4EF6/XR\u8D44\u6E90/P4/Unity
-    Live Preview Plugin-1.0.5-20250211"
+- packageId: com.unity.pico.livepreview@file:/Users/zhouyun/Documents/UnityProject/XRPlugin/P4/Unity
+    Live Preview Plugin-1.0.5-20250211
   testable: 0
   isDirectDependency: 1
   version: 1.0.5
   source: 4
-  resolvedPath: "/Users/zhouyun/Documents/unity\u5DE5\u7A0B\u6587\u4EF6/XR\u8D44\u6E90/P4/Unity
-    Live Preview Plugin-1.0.5-20250211"
+  resolvedPath: /Users/zhouyun/Documents/UnityProject/XRPlugin/P4/Unity Live Preview
+    Plugin-1.0.5-20250211
   assetPath: Packages/com.unity.pico.livepreview
   name: com.unity.pico.livepreview
   displayName: PICO Live Preview
@@ -951,14 +951,14 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: "com.unity.xr.picoxr@file:/Users/zhouyun/Documents/unity\u5DE5\u7A0B\u6587\u4EF6/XR\u8D44\u6E90/P4/PICO
-    Unity Integration SDK-3.2.0-20250707"
+- packageId: com.unity.xr.picoxr@file:/Users/zhouyun/Documents/UnityProject/XRPlugin/P4/PICO
+    Unity Integration SDK-3.2.0-20250707
   testable: 0
   isDirectDependency: 1
   version: 3.2.4
   source: 4
-  resolvedPath: "/Users/zhouyun/Documents/unity\u5DE5\u7A0B\u6587\u4EF6/XR\u8D44\u6E90/P4/PICO
-    Unity Integration SDK-3.2.0-20250707"
+  resolvedPath: /Users/zhouyun/Documents/UnityProject/XRPlugin/P4/PICO Unity Integration
+    SDK-3.2.0-20250707
   assetPath: Packages/com.unity.xr.picoxr
   name: com.unity.xr.picoxr
   displayName: PICO Integration
