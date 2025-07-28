@@ -403,6 +403,7 @@
 "Assets/Resources/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs"
 "Assets/Resources/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs"
 "Assets/Scripts/AsyncLoading.cs"
+"Assets/Scripts/HandRightController.cs"
 "Assets/Scripts/StartCanvas.cs"
 -langversion:9.0
 /deterministic
