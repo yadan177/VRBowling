@@ -6,14 +6,15 @@ public class StartCanvas : MonoBehaviour
 {
     public Transform m_BtnStart;//开始按钮
     public Transform m_BtnEnd;//结束按钮
+   private AsyncLoading asyncLoading;//异步加载组件
     void Start()
     {
-        
+        asyncLoading=GetComponentInChildren<AsyncLoading>();
     }
     #region 开始按钮点击、进入、退出
     public void OnStartClick()
     {
-        
+        asyncLoading.LoadingInterface();
     }
     public void OnStart_EnterClick()
     {
