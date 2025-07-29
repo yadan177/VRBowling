@@ -11,6 +11,7 @@ public class BallSpawn : MonoBehaviour
     float m_spawnInterval=2f;//生成间隔
     float m_spawnTimer=0f;//生成定时器
     int _mBallCount=0;//当前球的数量
+    public List<Material> ballMaterials;
     #endregion
 
     #region 属性
@@ -60,5 +61,8 @@ public class BallSpawn : MonoBehaviour
         ball.transform.position = transform.position;
         ball.transform.rotation = transform.rotation;
         BallCount++;
+        //随机生成材质
+        Material mat = ballMaterials[UnityEngine.Random.Range(0, ballMaterials.Count)];
+        ball.GetComponent<MeshRenderer>().material = mat;
     }
 }
