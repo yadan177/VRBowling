@@ -405,6 +405,7 @@
 "Assets/Scripts/AsyncLoading.cs"
 "Assets/Scripts/Ball.cs"
 "Assets/Scripts/BallPool.cs"
+"Assets/Scripts/BallSpawn.cs"
 "Assets/Scripts/HandRightController.cs"
 "Assets/Scripts/StartCanvas.cs"
 -langversion:9.0

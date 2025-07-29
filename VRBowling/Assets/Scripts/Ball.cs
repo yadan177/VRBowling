@@ -33,6 +33,7 @@ public class Ball : MonoBehaviour
     public void GrabEnter()
     {
         m_isGrabbed = false;
+        BallSpawn.instance.BallCount--;
     }
     /// <summary>
     /// 退出抓取
