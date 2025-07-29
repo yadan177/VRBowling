@@ -13,7 +13,6 @@ public class HandRightController : MonoBehaviour
     void Update()
     {
         InputDevices.GetDeviceAtXRNode(XRNode.RightHand).TryGetFeatureValue(CommonUsages.grip, out float gripValue);
-        Debug.Log(gripValue);
         if (Input.GetKey(KeyCode.G))
         {
             gripValue = 1;
