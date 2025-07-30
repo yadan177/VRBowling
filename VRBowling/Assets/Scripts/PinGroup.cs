@@ -17,7 +17,7 @@ public class PinGroup : MonoBehaviour
             instance = this;
         }
     }
-
+    
     public void Update()
     {
         if (m_BallEnyer)
@@ -25,7 +25,20 @@ public class PinGroup : MonoBehaviour
             HitPin();
         }
     }
-
+    /// <summary>
+    /// 重置瓶子
+    /// </summary>
+    public void ResetPin()
+    {
+        m_PinCount = 0;
+        fallenPins.Clear();//清空已倒下的瓶子列表
+        foreach (var p in GetComponentsInChildren<PIn>())
+        {
+            p.transform.position=p.m_StartPos;
+            p.transform.rotation =p.m_StartRot;
+        }
+    }
+    #region 保龄球击倒瓶子，跟新分数
     public void HitPin()
     {
         foreach (var p in GetComponentsInChildren<PIn>())
@@ -38,7 +51,6 @@ public class PinGroup : MonoBehaviour
             }
         }
     }
-
     /// <summary>
     /// 当球进入碰撞体时调用
     /// </summary>
@@ -51,7 +63,6 @@ public class PinGroup : MonoBehaviour
             Sreen.instance.SetColor(Color.red);
         }
     }
-
     /// <summary>
     /// 当球离开碰撞体时调用
     /// </summary>
@@ -63,7 +74,6 @@ public class PinGroup : MonoBehaviour
             StartCoroutine(StopCalculate());
         }
     }
-
     /// <summary>
     /// 停止计算
     /// </summary>
@@ -83,4 +93,5 @@ public class PinGroup : MonoBehaviour
             Sreen.instance.UpdateScoreText(m_PinCount);
         }
     }
+    #endregion
 }
