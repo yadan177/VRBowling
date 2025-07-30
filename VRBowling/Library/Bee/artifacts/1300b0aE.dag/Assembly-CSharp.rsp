@@ -392,8 +392,6 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -analyzer:"/Users/zhouyun/Documents/UnityProject/2022.3.52f1c1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Users/zhouyun/Documents/UnityProject/2022.3.52f1c1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
--analyzer:"Assets/Resources/Plugins/Demigiant/DOTween/DOTween.dll"
--analyzer:"Assets/Resources/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
 "Assets/Resources/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs"
 "Assets/Resources/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs"
 "Assets/Resources/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs"
@@ -407,6 +405,9 @@
 "Assets/Scripts/BallPool.cs"
 "Assets/Scripts/BallSpawn.cs"
 "Assets/Scripts/HandRightController.cs"
+"Assets/Scripts/PIn.cs"
+"Assets/Scripts/PinGroup.cs"
+"Assets/Scripts/Sreen.cs"
 "Assets/Scripts/StartCanvas.cs"
 -langversion:9.0
 /deterministic

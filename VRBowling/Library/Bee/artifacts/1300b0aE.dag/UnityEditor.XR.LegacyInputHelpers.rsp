@@ -371,8 +371,6 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -analyzer:"/Users/zhouyun/Documents/UnityProject/2022.3.52f1c1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Users/zhouyun/Documents/UnityProject/2022.3.52f1c1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
--analyzer:"Assets/Resources/Plugins/Demigiant/DOTween/DOTween.dll"
--analyzer:"Assets/Resources/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
 "Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.11/Editor/ArmModels/ArmModelEditor.cs"
 "Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.11/Editor/ArmModels/SwingArmModelEditor.cs"
 "Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.11/Editor/ArmModels/TransitionArmModelEditor.cs"
